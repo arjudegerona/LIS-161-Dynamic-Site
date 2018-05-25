@@ -1,0 +1,332 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+body {
+	background-color: #ffffff;
+	font-size: 14px;
+	font-color: #000000;
+}
+
+#wrapper {
+	width: 1100px;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#header {
+	padding-top: 10px;
+	background-color: #2f98c0;
+	width: 100%;
+}
+
+#menubar {
+	background-color: #2f98c0;
+	width: 100%;
+	margin-bottom: 10px;
+}
+
+
+
+h1.menu {
+	padding-top: 8px;
+	padding-bottom: 8px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	color: white;
+}
+
+a.menu:link {
+    text-decoration: none;
+	color: white;
+}
+
+a.menu:visited {
+	text-decoration: none;
+	color: white;
+}
+
+a.menu:hover {
+    text-decoration: none;
+	color: #3ec9ff;
+}
+
+a.postTitle:link {
+	color: #2f98c0;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 25px;
+	color: #2f98c0;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a.postTitle:visited {
+	color: #2f98c0;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 25px;
+	color: #2f98c0;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a.postTitle:hover {
+	color: #3ec9ff;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 25px;
+	color: #3ec9ff;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a.tag {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	color: #2f98c0;
+	font-weight: bold;
+	text-decoration: none;
+	font-style: italic;
+	
+}
+
+a.brand {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	color: #2f98c0;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+a.continueReading {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	color: #2f98c0;
+	font-weight: bold;
+	text-decoration: none;
+	font-style: italic;
+}
+
+a.continueReading:hover {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	color: #3ec9ff;
+	font-weight: bold;
+	text-decoration: none;
+	font-style: italic;
+}
+
+div.continueReading {
+	padding-left: 10px;
+	padding-bottom: 30px;
+}
+
+a.reviewLink {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 20px;
+	color: #2f98bf;
+	margin-bottom: 20px;
+	font-weight: bold;
+
+}
+
+p.policyHeader {
+	font-size:15px;
+	font-family:Arial;
+	padding-left:10px;
+}
+
+p.tag {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	color: #2f98c0;
+	font-weight: bold;
+	text-decoration: none;
+	
+}		
+
+.post {
+	background-color: white;
+	padding: 10px;
+	margin-bottom: 30px;
+}
+
+
+.post p {
+	margin-bottom: 10px;
+	font-family: Arial;
+	font-size: 15px;
+}
+
+.post ul {
+	padding-left: 50px;
+	margin-bottom: 10px;
+	font-family: Arial;
+	font-size: 13px;
+}
+
+.post td {
+	padding: 10px;
+	text-align: center;
+	font-family: Arial;
+	font-size: 13px;
+	border: 1px solid #2f98c0;
+}
+
+.reviewSystem tr:nth-child(even) {
+	background-color: #2f98c0;
+	color: white;
+}
+
+td.caption {
+	padding: .2px;
+	vertical-align: top;
+	border-top: 0px;
+}
+
+td.picture {
+	padding: 8px;
+	border-bottom: 0px;
+}
+
+h1.pageTitle {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 25px;
+	color: #2f98bf;
+	border-bottom: 1px solid #2f98c0;
+	margin-bottom: 20px;
+
+}
+
+h1.postTitle {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 25px;
+	color: #2f98bf;
+	margin-bottom: 5px;
+
+}
+
+
+
+h1.policyHeader {
+	font-family: Arial;
+	font-size: 20px;
+}
+		
+
+h2.date {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	color: #666666;
+	padding: 2px;
+	border-bottom: 1px solid #2f98c0;
+}
+
+div.content {
+		float: left;
+		width: 70%;
+}
+
+div.sidebar {
+	float: left;
+	width: 25%;
+	margin-left: 5px;
+}
+
+div.widgetHeading {
+	border-bottom: 2px solid #2f98c0;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	padding: 5px;
+}
+
+div.widget {
+	border: 2px solid #2f98c0;
+	margin-bottom: 15px;
+}
+
+
+
+div.widgetContent {
+	padding: 10px;
+	text-align: center;
+	color: #444444;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 14px;
+	line-height: 15px;
+}
+
+div.oneComment {
+	border: 1px solid #2f98c0;
+}
+
+div.commentDetails {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 13px;
+	color: #666666;
+	padding: 5px;
+}
+
+div.commentItself {
+	font-family: Arial;
+	font-size: 12px;
+	color: black;
+	padding: 5px;
+	padding-left: 10px;
+}
+
+
+
+legend {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	color: #2f98c0;
+	padding: 2px;		
+}
+
+fieldset {
+	font-size: 12px;
+	padding: 10px;
+	width: 550px;
+	color: #666666;
+	font-family: Arial;
+}
+
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1;  /*Sit on top */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+    background-color: #2f98c0;
+    margin: 15% auto; /* 15% from the top and centered */
+    padding: 20px;
+    border: 1px solid #888;
+	height: 175px;
+    width: 400px;
+	color: white;
+}
+
+
+/* The Close Button */
+.close {
+    color: #aaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+    color: black;
+    text-decoration: none;
+    cursor: pointer;
+}
